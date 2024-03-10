@@ -12,7 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\CleanArchitectureLesson1.Application\CleanArchitectureLesson1.Application.csproj" />
+    <ProjectReference Include="..\CleanArchitectureLesson1.Core\CleanArchitectureLesson1.Core.csproj" />
   </ItemGroup>
 
 </Project>
